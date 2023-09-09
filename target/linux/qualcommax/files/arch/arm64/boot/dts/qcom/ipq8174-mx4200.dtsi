@@ -28,7 +28,6 @@
 
 	chosen {
 		stdout-path = "serial0:115200n8";
-                bootargs-append = "init=/sbin/init rootfstype=squashfs ubi.mtd=22,2048 ubi.block=0,0 root=/dev/ubiblock0_0 rootwait ro swiotlb=1"
 	};
 
 	keys {
